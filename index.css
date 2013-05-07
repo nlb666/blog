@@ -1,0 +1,329 @@
+div.post {
+ 
+            font-family: facitweb-1,facitweb-2, Tahoma, Helvetica, Verdana, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+
+    margin-top: 5px;
+    padding-bottom: 5px;
+    color:#666666;
+    text-align: right;
+ 
+    max-width: 100%;
+    margin-right: 23%;
+    margin-left: 10%;
+	background-color: #f5f5f5;
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+  border:1px solid black;
+}
+
+div #blog-title {
+ 
+            font-family: facitweb-1,facitweb-2, Tahoma, Helvetica, Verdana, sans-serif;
+            font-size: 24px;
+	    font-weight:bold;
+            line-height: 1.5;
+
+    margin-top: 15px;
+    padding-bottom: 5px;
+    color:#cc8914;
+    text-align: right;
+    max-width: 100%;
+    margin-right: 23%;
+    margin-left: 10%;
+ 
+	background-color: #transparent;
+  border:none;
+}
+
+div #blog-title a {
+  text-decoration: none;
+    color:#cc8914;
+
+}
+
+div #blog-title a:hover
+{
+    position: relative;
+    z-index: 5;
+    background: url(tabs.gif) no-repeat left bottom;
+    color: #000000;
+}
+
+div.post p 
+  {
+  margin:30px 40px;
+  color:#000033;
+  }
+
+div.post h1
+  {
+  margin:30px 40px;
+  color:#000033;
+  }
+
+div.post h2 
+  {
+  margin:30px 40px;
+  color:#000033;
+  }
+
+div.post img {
+  filter:alpha(opacity=100);
+  /* CSS3 standard */
+  opacity:1.0;
+}
+
+
+div.post-title h2
+  {
+  margin:30px 40px;
+  color:#000033;
+  }
+
+div.post-title h2 a
+  {
+  text-decoration: none;
+  }
+
+div.post-title h2 a:hover
+{
+    position: relative;
+    z-index: 5;
+    background: url(tabs.gif) no-repeat left bottom;
+    color: #000000;
+}
+
+
+
+        div.profile {
+
+	background-color:transparent;
+
+	position:fixed;
+	left:71%;
+	top:129px;
+        }
+
+        .profile h1.name {
+            font-family: facitweb-1,facitweb-2, Tahoma, Helvetica, Verdana, sans-serif;
+            font-size: 80px;
+            line-height: 80px;
+            color: #cc8914;
+        }
+
+.profile li {
+            font-family: facitweb-1,facitweb-2, Tahoma, Helvetica, Verdana, sans-serif;
+            font-size: 24px;
+            line-height: 24px;
+            color: #cc8914;
+list-style-type: none;
+
+}
+
+.profile li a { 
+            font-family: facitweb-1,facitweb-2, Tahoma, Helvetica, Verdana, sans-serif;
+            font-size: 24px;
+            color: #cc8914;
+text-decoration: none; 
+}
+
+        body.profilepage {
+	background-color:transparent;
+background-image: url("maineboat.png");
+  background-position: 80% 20%;
+  background-repeat: repeat-y;
+background-attachment: fixed;
+            background-color: #c6d1e3;
+
+				height:675px;
+				background-position: 50% 50%;
+        }
+
+#tags-cloud a {
+    text-decoration: none;
+}
+
+#border {
+    margin: 10px auto 20px;
+    border-top: thick solid #7ac5cd; 
+}
+
+
+#search-area
+{
+ margin-top: 10px;
+
+}
+
+#search-area input { 
+    align: center;
+    width: 95%; }
+
+#search-area fieldset
+{
+border: 1px solid #cc8914;
+width: 85%;
+}
+
+#searchbar fieldset
+{
+border: 0px solid #cc8914;
+width: 85%;
+}
+
+legend
+{
+color: #fff;
+background: #ffa20c;
+border: 1px solid #cc8914;
+padding: 2px 6px
+}
+
+#srchResult iframe {
+width: 90px;
+}
+
+	.post-infos {
+	    margin-top: 10px;
+	    border-top: thin dotted black;
+	    }
+
+	#totalComments {
+	    display:inline;
+}
+	#date {
+	    display:inline;
+}
+	#tags {
+	    display:inline;
+}
+
+	#outsidefooter {
+		text-align: center;
+
+
+	}
+
+
+div #disqus_thread {
+  margin:30px 40px;
+}
+
+div .post-infos {
+  margin:30px 40px;
+}
+
+	.wrap {
+		position:relative;
+		margin:0 auto;
+		width:100%;
+	}
+	
+	#header, #footer {
+		width:100%;
+		float:left;
+		padding:0px 0;
+	}
+	
+	#header {
+		background:#f5f5f5;
+		position:fixed;
+		z-index:99999;
+		clear:both;
+		height:20px;
+		left:0;
+		margin-top:-8px;
+
+	}
+	
+	#header .logo {
+		float:left;
+		width:400px;
+		font-size:24px;
+	}
+	
+	#header p {
+		float:right;
+		width:400px;
+		margin:0;
+	}
+	
+	#content {
+		padding:0px 0;
+		margin-top: 0px;
+		float:left;
+	}
+	
+#ts_tabmenu {
+    font-size: .75em;
+            font-family: facitweb-1,facitweb-2, Tahoma, Helvetica, Verdana, sans-serif;
+            line-height: 1.5;
+
+    padding: 0px 0px 0px 20px;
+}
+#ts_tabmenu ul
+{
+    line-height: 1em;
+    margin: 0px;
+    list-style-type: none;
+    float: left;
+    padding: 0px 0px 0px 5px;
+}
+
+#ts_tabmenu ul li
+{
+  display:inline-block;
+  float: left;
+}
+
+#ts_tabmenu ul li a
+{
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: 0px 0px 0px 10px;
+    background: url(tabs.gif) no-repeat left top;
+    margin-left: -5px;
+    z-index: 0;
+    position: relative;
+ 
+}
+#ts_tabmenu ul li a strong
+{
+    font-weight: normal; /* remove the bold effect */
+    display: block;
+    background: url(tabs.gif) no-repeat right top;
+    padding: 6px 10px 7px 5px;
+    cursor: pointer;
+    color: #666666;
+}
+#ts_tabmenu ul li a:hover
+{
+    position: relative;
+    z-index: 5;
+    background: url(tabs.gif) no-repeat left bottom;
+    color: #000000;
+}
+#ts_tabmenu ul li a:hover strong
+{
+    background-image: url(tabs.gif) no-repeat;
+    position: relative;
+    z-index: 5;
+    background-position: right bottom;
+    color: #000000;
+}
+
+#ts_tabmenu ul li.selected a strong  {
+    color:#cc8914;
+}
+
+#ts_tabmenu ul li.selected a:hover strong  {
+    background-image: url(tabs.gif) no-repeat;
+    position: relative;
+    z-index: 5;
+    background-position: right bottom;
+    color: #000000;
+}
